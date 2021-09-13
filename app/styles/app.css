@@ -1,0 +1,289 @@
+body {
+    background: #bd8b8b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    overflow: hidden;
+}
+
+#about {
+    padding-top: 35px;
+    padding-bottom: 75px;
+
+}
+
+.fa-play{
+    font-size: 100px;
+    
+}
+
+/* The lower part of the page */
+
+#about .p-first {
+    margin-bottom: 30px;
+}
+
+
+#about h2 {
+    margin-bottom: 47px;
+    margin-top: 16px;
+    
+}
+
+
+#about .social-link-text {
+    margin-top: 50px;
+    margin-bottom: 25px;			
+    
+}
+
+#about .about-link{
+    padding-left: 100px;
+}
+
+#about .about-link li{
+    display: inline-block;
+ }
+
+/* this is for the links */
+
+.fa {
+padding: 15px;
+text-decoration: none;
+margin: 55px 30px;
+border-radius: 50%;
+border-style: solid;
+border-color: rgb(102, 93, 93);
+width: 57px;
+background: #382b2b;
+
+}
+
+
+#about .about-link li a i:hover {
+    color: #ffffff;
+    background: #11100e;
+    border-color: #8f8981;
+    
+}
+
+#about .about-img{
+    position: relative;
+    
+}
+
+#about .about-img{
+    position: relative;
+    
+}
+
+#about .about-img .man{
+    position: absolute;
+    bottom: 151px;
+    top: 12px;
+    left: -2px;
+    
+}
+
+.color-3{
+    color: #201a1a;
+}
+
+
+.text-white{
+    color: rgb(58, 23, 23);
+}
+
+.p {
+    margin-bottom: 10;
+    font-size: 16px;
+    line-height: 24px;
+    color: #332f2a;
+}
+
+.btn-danger{
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0
+}
+
+
+
+.can{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:75px;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+
+
+.top{
+    padding:10px 70px;
+    color: #535c68;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+
+a:link{
+    color: #535c68;
+}
+
+a:visited {
+    color: #535c68;
+    
+  }
+
+a:hover {
+    color: #c8d6e5;
+    
+  }
+
+.top:hover{
+    text-decoration: underline;}
+
+#top1{
+    text-decoration: none;
+}
+
+.ujj{
+    padding: 150px 150px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50% ;
+}
+
+body{
+  background: #665353;
+  font-family: tahoma;
+  text-align: justify;
+  overflow: hidden;
+  
+}
+
+.desc{
+    color: #8395a7;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    margin-top:-65px;
+}
+
+.desc2{
+    font-size: 30px;
+}
+
+.desc3{
+    font-size: 30px;
+}
+
+.fa{
+    padding: 17px;
+    text-decoration: none;
+    margin: 35px 15px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    width: 25px;
+    background: #2f3542;
+
+}
+
+
+.fa:hover {
+    color: #ffffff !important;
+    background: white;
+    
+}
+
+.vid{
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+
+.row{
+    display: flex
+}
+
+.vid1{
+    margin-right: 5px;
+    margin-top: 150px;
+}
+
+.mus{
+    background-image: url("music1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:900px
+   
+}
+
+/* contact tab CSS Code 
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+body {
+  text-align: left;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+
+  }
+ 
