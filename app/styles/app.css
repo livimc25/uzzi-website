@@ -1,100 +1,8 @@
-.home-taskbar {
-    background: #000;
-    left: 0;
-    position: fixed;
-    width: 100%;
-    height: 40px;
-    z-index: 99;
-    transition: transform .4s ease;
-    align-items: center;
-    height: 80px;
-    justify-content: space-between;
-    display: flex;
-}
-
-.taskbar-item {
-    align-items: center;
-    color: #fff;
-    font-family: "groteskblack",sans-serif;
-    padding: 0 0 0 30px;
-    text-transform: uppercase;
-    display: flex;
-}
-
-.dropdown {
-    color: #fff;
-    font-size: .8em;
-    font-weight: bold;
-    margin-right: 30px;
-    text-decoration: none !important;
-}
-
-.dropdown_menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    perspective: 1000px;
-    display: none;
-}
-
-.dropdown:hover .dropdown_menu--animated{
-    display: block;
-}
-
-.dropdown_menu-6 {
-    animation: growDown 300ms ease-in-out forwards;
-    transform-origin: top center;
-}
-
-@keyframes growDown {
-    0% {
-      transform: scaleY(0)
-    }
-    80% {
-      transform: scaleY(1.1)
-    }
-    100% {
-      transform: scaleY(1)
-    }
-}
-
-.dropdown_menu li {
-   display: none;
-   color: white;
-   background-color: #34495e;
-   padding: 10px 20px;
-   font-size: 16px;
-   opacity: 0;
-}
-   .dropdown_menu li:hover {
-    background-color: #2980b9
-}
-.dropdown:hover .dropdown_menu li {
-    display: block;
-}
-
-.home-picture {
-    // left: 50px;
-    position: relative;
-    top: 200px;
-    left: 1000px;
-    // right: 200px;
-    width: 35%;
-    height: 100%;
-    // z-index: 99;
-    transition: transform .4s ease;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-}
-
 body {
     background: #bd8b8b;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     overflow: hidden;
-    overflow-x: hidden;
 }
 
 #about {
@@ -256,15 +164,14 @@ body{
   background: #665353;
   font-family: tahoma;
   text-align: justify;
-  overflow:inherit;
-  overflow-x: hidden;
+  overflow: hidden;
+  
 }
 
 .desc{
     color: #8395a7;
     text-align: center;
     font-family: 'Handlee', cursive;
-    margin-top: 500px;
 }
 
 .desc2{
@@ -309,13 +216,13 @@ body{
     margin-top: 150px;
 }
 
-// .mus{
-//     background-image: url("music1.jpg");
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     height:900px
+.mus{
+    background-image: url("music1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:900px
    
-// }
+}
 
 /* contact tab CSS Code 
 
@@ -378,4 +285,4 @@ input[type=text], select, textarea {
     }
 
   }
- @import 'nrg-override';
+ 
