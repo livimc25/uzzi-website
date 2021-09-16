@@ -1,9 +1,19 @@
 'use strict';
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
+const config = require('./config/environment');
+const emberENV = process.env.EMBER_ENV;
+const ENV = config(emberENV);
+
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
+    fingerprint: {
+      enabled: emberENV === 'review' || emberENV === 'production',
+      prepend: process.env.rootURL || ENV.rootURL,
+      extensions: ['js', 'css', 'png', 'jpg', 'gif', 'map', 'svg'],
+    },
+
     // Add options here
   });
 

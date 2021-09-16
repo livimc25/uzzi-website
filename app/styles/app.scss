@@ -3,6 +3,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     overflow: hidden;
+    overflow-x: hidden;
 }
 
 #about {
@@ -164,8 +165,8 @@ body{
   background: #665353;
   font-family: tahoma;
   text-align: justify;
-  overflow: hidden;
-  
+  overflow:inherit;
+  overflow-x: hidden;
 }
 
 .desc{
@@ -286,4 +287,4 @@ input[type=text], select, textarea {
     }
 
   }
- 
+ @import 'nrg-override';
