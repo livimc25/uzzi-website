@@ -14,7 +14,7 @@ body {
 
 .fa-play{
     font-size: 100px;
-    
+
 }
 
 /* The lower part of the page */
@@ -27,14 +27,14 @@ body {
 #about h2 {
     margin-bottom: 47px;
     margin-top: 16px;
-    
+
 }
 
 
 #about .social-link-text {
     margin-top: 50px;
-    margin-bottom: 25px;			
-    
+    margin-bottom: 25px;
+
 }
 
 #about .about-link{
@@ -64,25 +64,22 @@ background: #382b2b;
     color: #ffffff;
     background: #11100e;
     border-color: #8f8981;
-    
+
 }
 
+// I love alivia
 #about .about-img{
     position: relative;
-    
+
 }
 
-#about .about-img{
-    position: relative;
-    
-}
 
 #about .about-img .man{
     position: absolute;
     bottom: 151px;
     top: 12px;
     left: -2px;
-    
+
 }
 
 .color-3{
@@ -139,12 +136,12 @@ a:link{
 
 a:visited {
     color: #535c68;
-    
+
   }
 
 a:hover {
     color: #c8d6e5;
-    
+
   }
 
 .top:hover{
@@ -200,7 +197,7 @@ body{
 .fa:hover {
     color: #ffffff !important;
     background: white;
-    
+
 }
 
 .vid{
@@ -223,10 +220,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height:900px
-   
+
 }
 
-/* contact tab CSS Code 
+/* contact tab CSS Code
 
 * {
   box-sizing: border-box;
@@ -244,7 +241,7 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
   }
-  
+
   input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -252,18 +249,18 @@ input[type=text], select, textarea {
     border: none;
     cursor: pointer;
   }
-  
+
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  
+
   /* Style the container/contact section */
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
   }
-  
+
   /* Create two columns that float next to eachother */
   .column {
     float: left;
@@ -271,14 +268,14 @@ input[type=text], select, textarea {
     margin-top: 6px;
     padding: 20px;
   }
-  
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
+
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
